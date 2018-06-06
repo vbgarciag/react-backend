@@ -13,4 +13,8 @@ router.get('/', function(req, res, next) {
     })
 });
 
+router.post('getUsers', function(req, res, next) {
+    //Do actions here....
+})
+
 module.exports = router;
